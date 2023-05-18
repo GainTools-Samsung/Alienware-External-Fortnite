@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="files\cheat\Gamepad.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="files\cheat\ImGui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="files\cheat\ImGui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="files\cheat\ImGui\imgui_impl_dx9.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="files\cheat\ImGui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="files\cheat\ImGui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="files\cheat\ImGui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="rat.cpp">
+      <Filter>driver</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="files\cheat\Gamepad.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="Offtests\Offsets.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="Offtests\keybind.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="files\cheat\ImGui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="files\cheat\ImGui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="files\cheat\ImGui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="files\cheat\ImGui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="files\cheat\ImGui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="files\cheat\ImGui\imgui_impl_dx9.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="files\cheat\ImGui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="files\cheat\ImGui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dx9.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="files\cheat\utils.hpp">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="font.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="icon.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="skcrypt.h">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="elements.h" />
+    <ClInclude Include="byte.h" />
+    <ClInclude Include="rat.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="XInput.lib">
+      <Filter>other</Filter>
+    </Library>
+    <Library Include="d3dx9.lib">
+      <Filter>imgui</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="driver">
+      <UniqueIdentifier>{1c2f8b36-0869-46f2-bad4-01d4d2b4428c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="misc">
+      <UniqueIdentifier>{aea24991-6fa8-45d4-8040-7f6d17e28ec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{4d1c6fa9-6d43-462f-9307-41bbfbfd8237}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other">
+      <UniqueIdentifier>{ed96b6f7-9492-48c0-b682-0b29f019e771}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

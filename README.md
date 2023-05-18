@@ -1,2 +1,3 @@
-# Alienware-External-Fortnite
-Not updated and no drivers but crazy looking GUI
+# Alienware P2C Source
+
+Idk just goodluck i guess, it has a good gui not gonna lie
